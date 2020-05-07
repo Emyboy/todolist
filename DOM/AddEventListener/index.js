@@ -12,3 +12,4 @@ inputBox.addEventListener('input', e => {
     // set the h1 HTML to be the incoming value
     h1.innerHTML = value;
 });
+
