@@ -7,12 +7,13 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>CRUD - todo list</title>
 </head>
-<body class="container">
+<body class="container mt-3">
     <div class="text-center heading"><h1>Todo List - CRUD</h1></div>
-    <div class="text-center card p-3">
+    <form class="text-center card p-3">
         <input autofocus id="text-input" class="p-1 w-100" placeholder="enter todo here" />
-        <button id="add-btn" class="w-100 btn btn-danger mt-2">Add</button>
-    </div>
+        <button type='submit' id="add-btn" class="w-100 btn btn-danger mt-2">Add</button>
+    </form>
+    <hr />
     <div class="mt-5" id="root">
         <div class="w-100 p-4" id="todo-list">
 
